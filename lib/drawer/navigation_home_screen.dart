@@ -4,7 +4,6 @@ import 'package:app_upeu/drawer/drawer_user_controller.dart';
 import 'package:app_upeu/drawer/home_drawer.dart';
 import 'package:app_upeu/views/help_screen.dart';
 import 'package:app_upeu/views/help_screen.dart';
-import 'package:app_upeu/views/tres_en_raya/tres_main2.dart';
 import 'package:app_upeu/views/tres_en_raya/tres_main.dart';
 import 'package:app_upeu/views/tres_en_raya/tres_resultado.dart';
 
@@ -60,11 +59,12 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
         setState(() {
           screenView = MainTresEnRaya(); //MainPersona()
         });
-      } else if (drawerIndex == DrawerIndex.Help) {
+      } /*else if (drawerIndex == DrawerIndex.Help) {
         setState(() {
           screenView = MainTresEnRaya2();
         });
-      } else if (drawerIndex == DrawerIndex.Invite) {
+      }*/
+      else if (drawerIndex == DrawerIndex.Invite) {
         setState(() {
           screenView = MainResultado();
         });

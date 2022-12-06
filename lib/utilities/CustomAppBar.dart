@@ -22,8 +22,8 @@ class _CustomAppBarState extends State<CustomAppBar> {
     return AppBar(
       title: Center(
           child: AppTheme.useMaterial3
-              ? const Text("Material 2")
-              : const Text("Material 1")),
+              ? const Text("Estilo 2")
+              : const Text("Estilo 1")),
       actions: [
         IconButton(
           icon: AppTheme.useLightMode
@@ -45,7 +45,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
               accionx();
             });
           },
-          tooltip: "Toggle brightness",
+          tooltip: "Cambiar de Tema",
         ),
         IconButton(
           icon: AppTheme.useMaterial3
@@ -64,7 +64,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
             });
             accionx();
           },
-          tooltip: "Switch to Material ${AppTheme.useMaterial3 ? 2 : 3}",
+          tooltip: "Cambiar de Estilo ${AppTheme.useMaterial3 ? 2 : 3}",
         ),
         PopupMenuButton(
           icon: const Icon(Icons.more_vert),

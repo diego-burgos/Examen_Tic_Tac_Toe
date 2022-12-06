@@ -5,7 +5,6 @@ import 'package:app_upeu/repository/ResultadoRepository.dart';
 import 'package:app_upeu/utilities/CustomAppBar.dart';
 import 'package:app_upeu/utilities/CustomButton.dart';
 import 'package:app_upeu/theme/AppTheme.dart';
-import 'package:app_upeu/views/tres_en_raya/tres_main2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
